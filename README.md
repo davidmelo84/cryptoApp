@@ -78,9 +78,16 @@ O servidor estará rodando em `http://localhost:3000`.
 | GET     | /api/cryptos    | Listar criptos |
 | GET     | /api/cryptos/:id | Buscar cripto por ID |
 
-## 🛠 Funcionalidades Futuras
-- Implementação de testes automatizados.
-- Melhorias na segurança e autenticação.
+## 🧪 Testes Automatizados
+Os testes automatizados para a aplicação estão implementados com **Jest**. Para rodar os testes, use o seguinte comando:
+
+```sh
+npm test
+
+### Testes incluídos:
+- Testes de criação, atualização e listagem de usuários.
+- Testes de consulta de dados sobre criptomoedas.
+
 
 ## 📄 Licença
 Este projeto está sob a licença MIT.
