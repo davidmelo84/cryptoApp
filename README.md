@@ -83,6 +83,7 @@ Os testes automatizados para a aplicação estão implementados com **Jest**. Pa
 
 ```sh
 npm test
+```
 
 ### Testes incluídos:
 - Testes de criação, atualização e listagem de usuários.
